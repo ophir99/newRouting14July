@@ -1,0 +1,16 @@
+section {
+  width: 100%;
+  display: flex;
+}
+
+.sub-menu {
+  list-style: none;
+}
+
+.sub-menu li {
+  margin: 10px 20px;
+  background-color: antiquewhite;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

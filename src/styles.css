@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flx {
+  display: flex;
+}
+.fdc {
+  flex-direction: column;
+}
+.fdr {
+  flex-direction: row;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}

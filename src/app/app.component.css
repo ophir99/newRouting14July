@@ -1,0 +1,8 @@
+header,
+main {
+  width: 100%;
+}
+
+header app-header {
+  width: 100%;
+}

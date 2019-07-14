@@ -1,0 +1,23 @@
+<nav class="flx">
+  <h1>
+    App new
+  </h1>
+  <div class="flx">
+    <input type="text" #token />
+    <button (click)="go(token.value)">GO</button>
+  </div>
+  <ul class="flx">
+    <li>
+      <a routerLink="">Home</a>
+    </li>
+    <li>
+      <a routerLink="posts">Posts</a>
+    </li>
+    <li>
+      <a routerLink="gallery">Gallery</a>
+    </li>
+    <li>
+      <a routerLink="services">Services</a>
+    </li>
+  </ul>
+</nav>
